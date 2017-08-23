@@ -1,0 +1,274 @@
+[
+  {
+    "lat": -41.294359,
+    "lng": 174.775307,
+    "title": "Lorettas",
+    "description": "Open, contemporary restaurant serving brunch, pizza & global mains, plus wine & beer.",
+    "icon": "images/fork.png",
+    "pageName": "Loretta"
+  },
+  {
+    "lat": -41.294281,
+    "lng": 174.784976,
+    "title": "Five Boroughs",
+    "description": "We're your first choice for our style of food, drink and atmosphere.",
+    "icon": "images/chicken.png",
+    "pageName": "fiveboroughsnz"
+  },
+  {
+    "lat": -41.294266,
+    "lng": 174.783235,
+    "title": "Sweet Mother's Kitchen",
+    "description": "Laid-back, eclectic cafe serving po' boys, gumbo & other New Orleans eats, plus some Mexican dishes.",
+    "icon": "images/fork.png",
+    "pageName": "Sweet-Mothers-Kitchen"
+  },
+  {
+    "lat": -41.292512,
+    "lng": 174.775757,
+    "title": "Oriental Kingdom",
+    "description": "Features: Dine-In Available, Takeaway Available, BYO, Outdoor Seating, Byob, Corkage Fee Charged.",
+    "icon": "images/fish.png",
+    "pageName": "Satay-Kingdom"
+  },
+  {
+    "lat": -41.293032,
+    "lng": 174.781583,
+    "title": "Dragons",
+    "description": "Stylish Chinese restaurant featuring a menu of dim sum & other traditional dishes, plus a full bar.",
+    "icon": "images/knife.png",
+    "pageName": "WellingtonDragons"
+  },
+  {
+    "lat": -41.293032,
+    "lng": 174.784870,
+    "title": "Ortega",
+    "description": "Popular locale offering upscale, creative fish dishes & steaks in a relaxed & bustling atmosphere.",
+    "icon": "images/chicken.png",
+    "pageName": "Ortega-Fish-Shack-Bar"
+  },
+  {
+    "lat": -41.292615,
+    "lng": 174.779588,
+    "title": "Nandos",
+    "description": "Home of the legendary, Portuguese flame-grilled PERi-PERi chicken.",
+    "icon": "images/chicken.png",
+    "pageName": "Nandos"
+  },
+  {
+    "lat": -41.292902,
+    "lng": 174.782688,
+    "title": "Big Thumb",
+    "description": "Stylish Chinese restaurant offering Sichuan-Cantonese dishes, plus daily yum cha with dim sum.",
+    "icon": "images/knife.png",
+    "pageName": "BigThumbChineseRestaurant"
+  },
+  {
+    "lat": -41.284391,
+    "lng": 174.779040,
+    "title": "The Crab Shack",
+    "description": "Informal restaurant serving burgers, crab & other seafood dishes in a space with a coastal vibe.",
+    "icon": "images/fish.png",
+    "pageName": "CrabShackWGN"
+  },
+  {
+    "lat": -41.134142,
+    "lng": 174.839437,
+    "title": "Dynasty",
+    "description": "NZ$50 for two people (approx.)",
+    "icon": "images/fork.png",
+    "pageName": "Dynasty"
+  },
+  {
+    "lat": -41.293627,
+    "lng": 174.781265,
+    "title": "Burger King",
+    "description": "Freshly prepared flame-grilled burgers on the corner of Manners and Cuba Streets in Wellington.",
+    "icon": "images/chicken.png",
+    "pageName": "burgerking"
+  },
+  {
+    "lat": -41.294934,
+    "lng": 174.775795,
+    "title": "Mekong Cafe",
+    "description": "Mekong Cafe Wellington City on Zomato for Delivery, Dine-out or Takeaway, Mekong Cafe menu and prices.",
+    "icon": "images/knife.png",
+    "pageName": "MekongcafeNZ"
+  },
+  {
+    "lat": -41.291639,
+    "lng": 174.775795,
+    "title": "The Oaks",
+    "description": "Utilitarian counter-service outfit with basic decor whipping up traditional Chinese fast food.",
+    "icon": "images/fork.png",
+    "pageName": "The-Oaks-Satay-Noodle-House"
+  },
+  {
+    "lat": -41.2924091,
+    "lng": 174.77278,
+    "title": "Viva Mexico",
+    "description": "Counter-serve Mexican eatery offering tacos, tortas & other traditional dishes in a colorful space.",
+    "icon": "images/fish.png",
+    "pageName": "Viva-México-Newtown"
+  },
+  {
+    "lat": -41.294414,
+    "lng": 174.774908,
+    "title": "Olive Cafe",
+    "description": "Long-running restaurant serving seasonal French- & Italian-inspired menus in a rustic-chic space.",
+    "icon": "images/chicken.png",
+    "pageName": "CafeOlive"
+  },
+  {
+    "lat": -41.291028,
+    "lng": 174.776403,
+    "title": "Abrakebabra",
+    "description": "Every time we come to Wellington we have to go there for lunch, never disappointed , you always go out the front door with a fill tummy, which is a good thing.",
+    "icon": "images/fork.png",
+    "pageName": "kebabcentral.co.nz"
+  },
+  {
+    "lat": -41.293085,
+    "lng": 174.783121,
+    "title": "Little India",
+    "description": "Little India Cuba Mall is located in Wellington CBD and provides delicious Indian takeaway and dine in options.",
+    "icon": "images/knife.png",
+    "pageName": "littleindiablairstreet"
+  },
+  {
+    "lat": -41.292034,
+    "lng": 174.777046,
+    "title": "Mexico",
+    "description": "Table for four, enchiladas, pork, lamb and chicken. Good size portions, tasty sauces, fresh and hot. Friendly efficient service and affordable.",
+    "icon": "images/chicken.png",
+    "pageName": "Mexico-Wellington"
+  },
+  {
+    "lat": -41.293580,
+    "lng": 174.776210,
+    "title": "Customs Brew Bar",
+    "description": "As their flagship Wellington location, Customs epitomises how Coffee Supreme sees coffee – beautiful, ever changing, and shareable.",
+    "icon": "images/fork.png",
+    "pageName": "NewBrewTavern"
+  },
+  {
+    "lat": -41.292126,
+    "lng": 174.777479,
+    "title": "Six Barrel Cafe",
+    "description": "Airy hangout serving a rotating menu of creative signature sodas, plus shakes, coffees & fries.",
+    "icon": "images/fork.png",
+    "pageName": "sixbarrelsodaco"
+  },
+  {
+    "lat": -41.292956,
+    "lng": 174.775136,
+    "title": "Husk",
+    "description": "Husk is Wellington's newest eatery, bar, brewery and coffee roastery located down a private alley off Ghuznee Street in Wellington.",
+    "icon": "images/chicken.png",
+    "pageName": "huskbar"
+  },
+  {
+    "lat": -41.286756,
+    "lng": 174.775872,
+    "title": "Puro Chile",
+    "description": "Puro Chilean. Puro wall So just inside the Grand Arcade, Willis Street.",
+    "icon": "images/knife.png",
+    "pageName": "purochilewellington"
+  },
+  {
+    "lat": -41.313158,
+    "lng": 174.779779,
+    "title": "Cicio Cacio",
+    "description": "Wellington's Cicio Cacio provides a charming trip to Italy.",
+    "icon": "images/fish.png",
+    "pageName": "osteriaciciocacio"
+  },
+  {
+    "lat": -41.292470,
+    "lng": 174.779367,
+    "title": "Enigma",
+    "description": "Cafe and licensed bar in the middle of courtenay place. good coffee and a great courtyard.",
+    "icon": "images/fork.png",
+    "pageName": "EnigmaCafeNZ"
+  },
+  {
+    "lat": -41.292521,
+    "lng": 174.781951,
+    "title": "Joe's Garage",
+    "description": "Everybody can come to Joe's to have fun, catch up with friends, enjoy fantastic food & drink. Go See Joe!",
+    "icon": "images/knife.png",
+    "pageName": "JoesGarageWellington"
+  },
+  {
+    "lat": -41.295406,
+    "lng": 174.778365,
+    "title": "Prefab",
+    "description": "Casual, modern outpost for coffee, seasonal breakfast & lunch eats & housemade bread.",
+    "icon": "images/fish.png",
+    "pageName": "PrefabEatery"
+  },
+  {
+    "lat": -41.294385,
+    "lng": 174.780447,
+    "title": "Lone Star",
+    "description": "Lone Star Wellington restaurant is nestled in the Courtney Quarter. The restaurant seats around 130, including relaxing booth areas.",
+    "icon": "images/chicken.png",
+    "pageName": "lonestarwellington"
+  },
+  {
+    "lat": -41.293025,
+    "lng": 174.783160,
+    "title": "Monsoon Poon",
+    "description": "Our famous Firecracker spiced chicken sandwiched in a fresh bun with chilli mayo.",
+    "icon": "images/knife.png",
+    "pageName": "monsoonpoon"
+  },
+  {
+    "lat": -41.223983,
+    "lng": 174.874620,
+    "title": "Kilim",
+    "description": "Kilim's Turkish Cuisine is a café & takeaway based in Petone (Wellington) and Kapiti Coast, New Zealand.",
+    "icon": "images/chicken.png",
+    "pageName": "KilimCafePetone"
+  },
+  {
+    "lat": -41.227340,
+    "lng": 174.884127,
+    "title": "Buddha Stix",
+    "description": "Dine-In Available, Takeaway Available, Full Bar Available, Fullbar. Buddha Stix 354 Jackson Street, Petone, Lower Hutt, Wellington.",
+    "icon": "images/fork.png",
+    "pageName": "Buddha-Stix-Petone"
+  },
+  {
+    "lat": -41.292366,
+    "lng": 174.776419,
+    "title": "Aroy",
+    "description": "Aroy Thai Express Wellington City.",
+    "icon": "images/fish.png",
+    "pageName": "Aroy-Thai"
+  },
+  {
+    "lat": -41.293686,
+    "lng": 174.769619,
+    "title": "Forage",
+    "description": "A locally sourced selection of dishes at the new restaurant within the refurbished Grand Mercure Wellington.",
+    "icon": "images/knife.png",
+    "pageName": "forageondominion"
+  },
+  {
+    "lat": -41.289772,
+    "lng": 174.775325,
+    "title": "Subway",
+    "description": "Let Subway take care of all of your catering requirements.",
+    "icon": "images/fork.png",
+    "pageName": "subway"
+  },
+  {
+    "lat": -41.290431,
+    "lng": 174.774169,
+    "title": "Indian Taj",
+    "description": "Order online, delivery, book online, menus, reviews, gift vouchers, and more - Authentic Indian.",
+    "icon": "images/chicken.png",
+    "pageName": "Taj-Indian"
+  }
+]
