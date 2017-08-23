@@ -17,11 +17,11 @@ var accessToken;
 	});
 
 
-	var name = "CafeOlive";
+	var name = "ElMatadorWellington";
 	var pageID;
 	function getId(){
 		$.ajax({
-			url: "https://graph.facebook.com/v2.10/"+name+"?access_token="+accessToken,
+			url: "https://graph.facebook.com/v2.10/"+name+"?access_token=" + accessToken,
 			dataType:"jsonp",
 			success:function(DataFromFacebook){
 
@@ -40,7 +40,7 @@ var accessToken;
 
 	function facebookData(){
 		$.ajax({
-			url: "https://graph.facebook.com/v2.10/"+pageID+"?fields=name,about,description,phone&access_token="+accessToken,
+			url: "https://graph.facebook.com/v2.10/"+pageID+"?fields=name,about,description,phone&access_token=" + accessToken,
 			dataType:"jsonp",
 			success:function(DataFromFacebook){
 			  console.log(DataFromFacebook);
