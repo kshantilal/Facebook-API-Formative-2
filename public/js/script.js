@@ -177,7 +177,7 @@ function addAllMarkers(){
 				markers.push(marker);
 
 			};
-				// clickMarker();
+				clickMarker();
 
 		},
 		error: function(){
@@ -207,17 +207,18 @@ function AllInfoBox(marker) {
 
 
 
-// function clickMarker(name){
-// 	google.maps.event.addListener(marker,"click", function(){
+function clickMarker(){
+	google.maps.event.addListener(marker,"click", function(){
 
-// 	name = pageName.pageName;
-// 	console.log(name); 
-// 	 // name = title.title;
-// 	 // $("#info").append("<h1>"+name+"</h1>");
-// 	 accessToken();
 
-// 	});	
-// }
+	name = pageName;
+	console.log(name); 
+	 // name = title.title;
+	 // $("#info").append("<h1>"+name+"</h1>");
+	 accessToken();
+
+	});	
+}
 
 
 
