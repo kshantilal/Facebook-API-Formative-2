@@ -52,7 +52,7 @@ input[type=text]:focus {
 #restInfo{
 	width: 100vw;
 	position: relative;
-	top: -400px;
+	top: -250px;
 }
 
 .inc{
