@@ -45,7 +45,7 @@
     "title": "Ortega",
     "description": "Popular locale offering upscale, creative fish dishes & steaks in a relaxed & bustling atmosphere.",
     "icon": "images/chicken.png",
-    "pageName": "Ortega-Fish-Shack-Bar"
+    "pageName": "171328776240092"
   },
   {
     "lat": -41.292615,
@@ -101,7 +101,7 @@
     "title": "The Oaks",
     "description": "Utilitarian counter-service outfit with basic decor whipping up traditional Chinese fast food.",
     "icon": "images/fork.png",
-    "pageName": "The-Oaks-Satay-Noodle-House"
+    "pageName": "151124838097"
   },
   {
     "lat": -41.2924091,
@@ -109,7 +109,7 @@
     "title": "Viva Mexico",
     "description": "Counter-serve Mexican eatery offering tacos, tortas & other traditional dishes in a colorful space.",
     "icon": "images/fish.png",
-    "pageName": "Viva-México-Newtown"
+    "pageName": "185318438283867"
   },
   {
     "lat": -41.294414,
@@ -237,7 +237,7 @@
     "title": "Buddha Stix",
     "description": "Dine-In Available, Takeaway Available, Full Bar Available, Fullbar. Buddha Stix 354 Jackson Street, Petone, Lower Hutt, Wellington.",
     "icon": "images/fork.png",
-    "pageName": "Buddha-Stix-Petone"
+    "pageName": "297547646942699"
   },
   {
     "lat": -41.292366,
@@ -264,11 +264,11 @@
     "pageName": "subway"
   },
   {
-    "lat": -41.290431,
-    "lng": 174.774169,
+    "lat": -41.293968,
+    "lng": 174.782228,
     "title": "Indian Taj",
     "description": "Order online, delivery, book online, menus, reviews, gift vouchers, and more - Authentic Indian.",
     "icon": "images/chicken.png",
-    "pageName": "Taj-Indian"
+    "pageName": "Courtenay-Taj-Restaurant"
   }
 ]
