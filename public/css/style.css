@@ -7,7 +7,7 @@
 body{
 	margin-top: 20px;
 	text-align: center;
-	background-image: url(../images/food2_720.jpg);
+	background-image: url(../images/food2_720.png);
 	background-attachment: fixed;
 	width: 100vw;
 	height: 100vh;
@@ -38,9 +38,9 @@ body{
 
 .inc{
 	font-family: 'Inconsolata', monospace;
-	color: #2ec8d0;
+	color: #249cd0;
 	background-color: white;
-	width: 550px;
+	width: 650px;
 	margin-left: 35%;
 }
 
