@@ -1,90 +1,91 @@
 
 // Create a config.json file if it was pushed up to git
 var accessToken;
-
+var JSONTitle;
 var infobox, marker, map;
-
+var name;
+var pageID;
 var markers = [];
-
-
-function getFB(){
-	$.ajax({
-			url: "config/config.json",
-			dataType: "json",
-			success: function(DataFromJSON){
-				// console.log(DataFromJSON.AccessToken);
-				accessToken = DataFromJSON.AccessToken;
-				getId();
-			},
-			error: function(){
-				console.log("Something went wrong");
-			}
-	});
-
-}
-	
-
-
-	var name;
-	var pageID;
-	function getId(){
-		$.ajax({
-			url: "https://graph.facebook.com/v2.10/"+name+"?access_token=" + accessToken,
-			dataType:"jsonp",
-			success:function(DataFromFacebook){
-
-				// console.log(DataFromFacebook);
-				pageID = DataFromFacebook.id;
-				// console.log(pageID);
-				facebookData();
-
-			},
-
-
-			error:function(){
-			 console.log("Something went wrong");
-			}
-		});
-
-	}
 var FBname;
 var FBabout;
 var FBphone;
 var FBdescription;
 
-	function facebookData(){
-		$.ajax({
-			url: "https://graph.facebook.com/v2.10/"+pageID+"?fields=name%2Cabout%2Cdescription%2Cphone&access_token=" + accessToken,
-			dataType:"jsonp",
-			success:function(DataFromFacebook){
-			  console.log(DataFromFacebook);
-			  FBname = DataFromFacebook.name;
-			  FBabout = DataFromFacebook.about;
-			  FBphone = DataFromFacebook.phone;
-			  FBdescription = DataFromFacebook.description;
+function getFB(){
+	$.ajax({
+        url: "config/config.json",
+        dataType: "json",
+        success: function(DataFromJSON){
+            accessToken = DataFromJSON.AccessToken;
+            getId();
+        },
+        error: function(){
+            console.log("Something went wrong");
+        }
+	});
 
-			  $("#info").empty().append("<h3>"+FBname+"</h3>"+
-			  							"<p>"+FBabout+"</p>"+
-			  							"<p>"+FBdescription+"</p>"+
-			  							"<p>"+FBphone+"</p>"
+}
+
+function getId(){
+    $.ajax({
+        url: "https://graph.facebook.com/v2.10/"+name+"?access_token=" + accessToken,
+        dataType:"jsonp",
+        success:function(DataFromFacebook){
+
+            pageID = DataFromFacebook.id;
+            facebookData();
+
+        },
 
 
-			  );
+        error:function(){
+         console.log("Something went wrong");
+        }
+    });
 
-			},
-			error:function(){
-			  console.log("Cant get data from Facebook");
-			}
+}
 
-		});
+function facebookData(){
+    $.ajax({
+        url: "https://graph.facebook.com/v2.10/"+pageID+"?fields=name%2Cabout%2Cdescription%2Cphone&access_token=" + accessToken,
+        dataType:"jsonp",
+        success:function(DataFromFacebook){
+            FBname = DataFromFacebook.name;
+            FBabout = DataFromFacebook.about;
+            FBphone = DataFromFacebook.phone;
+            FBdescription = DataFromFacebook.description;
 
-	};
+            if (FBphone === undefined){
+                FBphone = "Please check out our times online"
+            }
+            if (FBname === undefined){
+                FBname = JSONTitle;
+            }
+            if (FBabout === undefined){
+                FBabout = ""
+            }
+            if (FBdescription === undefined){
+                FBdescription = "Information not on facebook"
+            }
+
+            $("#info").empty().append("<h3>"+FBname+"</h3>"+
+                                        "<p>"+FBabout+"</p>"+
+                                        "<p>"+FBdescription+"</p>"+
+                                        "<p>"+FBphone+"</p>"
+            );
+
+        },
+        error:function(){
+            console.log("Cant get data from Facebook");
+        }
+
+    });
+}
  	
 	
 function init(){
 
 	var mapOptions = {
-		//set where the map starts
 		center:{
            lat: -41.292186,
            lng: 174.780258
@@ -161,22 +162,20 @@ function init(){
 
 google.maps.event.addDomListener(window, 'load', init());
 
+var currentTitle;
 
 function addAllMarkers(){
 	$.ajax({
 		url:"data/FacebookDATA.json",
 		dataType: "json",
 		success: function(DataFromJSON){
-			
-				
 
 			for (var i = 0; i < DataFromJSON.length; i++) {
 
-				// console.log(DataFromJSON[i].pageName);				
 				marker = new google.maps.Marker({
 					position:{
 						lat: DataFromJSON[i].lat,
-						lng: DataFromJSON[i].lng,
+						lng: DataFromJSON[i].lng
 					},
 					map: map,
 					animation: google.maps.Animation.DROP,
@@ -184,14 +183,16 @@ function addAllMarkers(){
 					title: DataFromJSON[i].title,
 					description: DataFromJSON[i].description,
 					pageName: DataFromJSON[i].pageName
-					
-					
-				});
+
+
+
+            });
+
 				AllInfoBox(marker);
 				markers.push(marker);
-				clickMarker(marker);
+				clickMarker(marker,DataFromJSON[i].title);
 				
-			};
+			}
 				
 
 		},
@@ -199,13 +200,9 @@ function addAllMarkers(){
 			console.log("something went wrong");
 		}
 
-
 	})
 
-
-
-};
-
+}
 
 
 function AllInfoBox(marker) {
@@ -220,22 +217,14 @@ function AllInfoBox(marker) {
 	});
 }
 
-
-
-function clickMarker(pageName){
+function clickMarker(pageName,title){
 	google.maps.event.addListener(marker,"click", function(){
-
-	name = pageName.pageName;
- 
-	 getFB();	
-
+	    name = pageName.pageName;
+	    JSONTitle = title;
+	    getFB();
 	});
-	
 }
 
-// 
-
-// console.log(clickMarker);
 
 
 

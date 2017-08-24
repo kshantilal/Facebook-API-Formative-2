@@ -11,16 +11,12 @@ app.use(function(request, response, next){
 	next();
 
 
-})
+});
 
 app.use(express.static("./public"));
 app.use('/scripts', express.static(path.join(__dirname, 'node_modules/jquery/dist')));
 app.use('/config', express.static(path.join(__dirname)));
 app.use('/data', express.static(path.join(__dirname, 'data')));
-
-
-
-
 
 
 app.use(cors());
